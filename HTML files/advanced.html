@@ -43,24 +43,30 @@
     </div>
     <div id="form-container">
       <form action="/search" method="GET" name="f">
-        <div>
-          <div id="header1">
-            <span class="span-header" data-speachify-sentence>Find pages with...</span>
-          </div>
-          <div style="min-width: 167px; display: inline-block; vertical-align: middle; width: 50%;"></div>
-          <div style="display: inline-block; width: 33%; font-size: 13px; color: #777; font-weight: 700;background-color: black;">To do this in the search box</div>
+        <div class="input-container">
+          <label class="header-label">Find pages with...</label>
+          <div id="whitespace"></div>
+          <label style="width: 33%">To do this in the search box.</label>
         </div>
-        <div>
-          <div class="div-width">
-            <div class="line">
-              <label for="">all these words</label>
-            </div>
-          </div>
-          <div class="input-width">
-            <div class="input-line">
-              <input class="input-box" type="text" id="#">
-            </div>
-          </div>
+        <div class="input-container">
+          <label>all these words:</label>
+          <input></input>
+          <label class="label-right">Type the important words: tri-color rat terrier</label>
+        </div>
+        <div class="input-container">
+          <label>this exact word or phrase:</label>
+          <input></input>
+          <label class="label-right">Put exact words in quotes: "rat terrier"</label>
+        </div>
+        <div class="input-container">
+          <label>any of these words:</label>
+          <input></input>
+          <label class="label-right">Type OR between all the words you want: miniature OR standard</label>
+        </div>
+        <div class="input-container">
+          <label>none of these words:</label>
+          <input></input>
+          <label class="label-right">Put a minus sign just before words that you don't want: -rodent, -"jack Russell"</label>
         </div>
       </form>
     </div>
