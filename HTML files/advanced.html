@@ -42,32 +42,33 @@
       <label style="margin: 25px 35px; color: #d93025; font-family: arial,sans-serif; font-size: 20px;">Advanced Search</label>
     </div>
     <div id="form-container">
-      <form action="/search" method="GET" name="f">
+      <form action="https://www.google.com/search" method="get">
         <div class="input-container">
           <label class="header-label">Find pages with...</label>
-          <div id="whitespace"></div>
+          <div class="input-search"></div>
           <label style="width: 33%">To do this in the search box.</label>
         </div>
         <div class="input-container">
           <label>all these words:</label>
-          <input></input>
+          <input type="text" name="as_q" class="input-search"></input>
           <label class="label-right">Type the important words: tri-color rat terrier</label>
         </div>
         <div class="input-container">
           <label>this exact word or phrase:</label>
-          <input></input>
+          <input type="text" name="as_epq" class="input-search"></input>
           <label class="label-right">Put exact words in quotes: "rat terrier"</label>
         </div>
         <div class="input-container">
           <label>any of these words:</label>
-          <input></input>
+          <input type="text" name="as_oq" class="input-search"></input>
           <label class="label-right">Type OR between all the words you want: miniature OR standard</label>
         </div>
         <div class="input-container">
           <label>none of these words:</label>
-          <input></input>
+          <input type="text" name="as_eq" class="input-search"></input>
           <label class="label-right">Put a minus sign just before words that you don't want: -rodent, -"jack Russell"</label>
         </div>
+        <input type="submit" value="Advanced Search" id="advanced-search-button">
       </form>
     </div>
 
