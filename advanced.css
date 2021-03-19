@@ -1,0 +1,67 @@
+
+/* header style */
+#header1 {
+    display: inline-block; 
+    width: 16%; 
+    background-color: red;
+}
+
+#span-header1 {
+    margin-left:35px; 
+    margin-top: 25px; 
+    color: #333;
+}
+
+/* label and input styles */
+#form-container {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.header-label, label, #whitespace, input {
+    display: inline-block;
+    width: 16%;
+    vertical-align: middle;
+}
+
+.label-right {
+    margin: 0 0 8px 1%;
+    width: 32%;
+    vertical-align: middle;
+    color: #555;
+    font-size: 12px;
+}
+
+.header-label {
+    font-family: arial, sans-serif;
+    color: #333;
+    font-size: 100%;
+}
+
+.whitespace {
+    width: 50%
+}
+
+.input-search {
+    width: 50%;
+    display: inline-block;
+}
+
+.input-container {
+    min-height: 42px;
+}
+
+#advanced-search-button {
+    background-color:#1a73e8;
+    border: 1px solid transparent;
+    color: white;
+    width: fit-content;
+    border-radius: 2px;
+    margin-left: 53.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 12px;
+    
+}
